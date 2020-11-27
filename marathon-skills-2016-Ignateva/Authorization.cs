@@ -17,9 +17,26 @@ namespace marathon_skills_2016_Ignateva
         string login = string.Empty;
         string password = string.Empty;
 
+        //string userRole;
+
+        DataBase dataBase = new DataBase();
+
         public Authorization()
         {
             InitializeComponent();
+
+            //userRole = role;
+
+            DateTime now = DateTime.Now;
+            DateTime D = new DateTime(1, 12, 23, 10, 00, 00);
+            DateTime B;
+            if (now.Month < D.Month)
+                B = D.AddYears(now.Year - 1);
+            else
+                B = D.AddYears(now.Year);
+            TimeSpan f = B - now;
+            labelTimer.Text = "Осталось " + f.Days + " дней, " + f.Hours + " часов, и " + f.Minutes + " минут  до старта марафона";
+
         }
 
         private void btnLogin_Click(object sender, EventArgs e)
@@ -37,9 +54,8 @@ namespace marathon_skills_2016_Ignateva
             }
             else
             {
-                //НЕОБХОДИМО ПОДКЛЮЧЕНИЕ К БД
-                string queryReg = "INSERT Email, Password, RoleId";
-
+                AuthorizationRole authorizationRole = new AuthorizationRole(login, password);
+                authorizationRole.Show();
             }
         }
 

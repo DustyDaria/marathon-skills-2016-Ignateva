@@ -38,26 +38,34 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(291, 25);
+            this.label1.Font = new System.Drawing.Font("Arial Narrow", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label1.ForeColor = System.Drawing.Color.DarkGoldenrod;
+            this.label1.Location = new System.Drawing.Point(132, 52);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(175, 13);
+            this.label1.Size = new System.Drawing.Size(317, 29);
             this.label1.TabIndex = 0;
             this.label1.Text = "ТОЛЬКО ДЛЯ ТЕСТИРОВНАИЯ!";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(236, 67);
+            this.label2.Font = new System.Drawing.Font("Arial", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label2.Location = new System.Drawing.Point(84, 121);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(289, 13);
+            this.label2.Size = new System.Drawing.Size(418, 54);
             this.label2.TabIndex = 1;
-            this.label2.Text = "Под каким пользователем вы хотите войти в систему?";
+            this.label2.Text = "Под каким пользователем вы хотите\r\nвойти в систему?";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // btnRunner
             // 
-            this.btnRunner.Location = new System.Drawing.Point(309, 141);
+            this.btnRunner.Font = new System.Drawing.Font("Arial", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.btnRunner.Location = new System.Drawing.Point(164, 226);
+            this.btnRunner.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnRunner.Name = "btnRunner";
-            this.btnRunner.Size = new System.Drawing.Size(174, 23);
+            this.btnRunner.Size = new System.Drawing.Size(250, 50);
             this.btnRunner.TabIndex = 2;
             this.btnRunner.Text = "Бегун";
             this.btnRunner.UseVisualStyleBackColor = true;
@@ -65,9 +73,11 @@
             // 
             // btnCoordinator
             // 
-            this.btnCoordinator.Location = new System.Drawing.Point(309, 212);
+            this.btnCoordinator.Font = new System.Drawing.Font("Arial", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.btnCoordinator.Location = new System.Drawing.Point(164, 323);
+            this.btnCoordinator.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnCoordinator.Name = "btnCoordinator";
-            this.btnCoordinator.Size = new System.Drawing.Size(174, 23);
+            this.btnCoordinator.Size = new System.Drawing.Size(250, 50);
             this.btnCoordinator.TabIndex = 3;
             this.btnCoordinator.Text = "Координатор";
             this.btnCoordinator.UseVisualStyleBackColor = true;
@@ -75,9 +85,11 @@
             // 
             // btnAdmin
             // 
-            this.btnAdmin.Location = new System.Drawing.Point(309, 297);
+            this.btnAdmin.Font = new System.Drawing.Font("Arial", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.btnAdmin.Location = new System.Drawing.Point(164, 418);
+            this.btnAdmin.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnAdmin.Name = "btnAdmin";
-            this.btnAdmin.Size = new System.Drawing.Size(174, 23);
+            this.btnAdmin.Size = new System.Drawing.Size(250, 50);
             this.btnAdmin.TabIndex = 4;
             this.btnAdmin.Text = "Администратор";
             this.btnAdmin.UseVisualStyleBackColor = true;
@@ -85,14 +97,15 @@
             // 
             // AuthorizationRole
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(594, 527);
             this.Controls.Add(this.btnAdmin);
             this.Controls.Add(this.btnCoordinator);
             this.Controls.Add(this.btnRunner);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "AuthorizationRole";
             this.Text = "AuthorizationRole";
             this.ResumeLayout(false);
