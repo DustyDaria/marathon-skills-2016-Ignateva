@@ -49,7 +49,7 @@
             // 
             this.btnBack.Font = new System.Drawing.Font("Arial", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.btnBack.Location = new System.Drawing.Point(32, 22);
-            this.btnBack.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnBack.Margin = new System.Windows.Forms.Padding(4);
             this.btnBack.Name = "btnBack";
             this.btnBack.Size = new System.Drawing.Size(140, 50);
             this.btnBack.TabIndex = 0;
@@ -102,7 +102,7 @@
             this.textBoxEmail.Font = new System.Drawing.Font("Arial", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBoxEmail.ForeColor = System.Drawing.Color.DimGray;
             this.textBoxEmail.Location = new System.Drawing.Point(553, 328);
-            this.textBoxEmail.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBoxEmail.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxEmail.Name = "textBoxEmail";
             this.textBoxEmail.Size = new System.Drawing.Size(301, 34);
             this.textBoxEmail.TabIndex = 4;
@@ -113,7 +113,7 @@
             this.textBoxPassword.Font = new System.Drawing.Font("Arial", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBoxPassword.ForeColor = System.Drawing.Color.DimGray;
             this.textBoxPassword.Location = new System.Drawing.Point(553, 393);
-            this.textBoxPassword.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBoxPassword.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxPassword.Name = "textBoxPassword";
             this.textBoxPassword.Size = new System.Drawing.Size(301, 34);
             this.textBoxPassword.TabIndex = 5;
@@ -147,7 +147,7 @@
             // 
             this.btnLogin.Font = new System.Drawing.Font("Arial", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.btnLogin.Location = new System.Drawing.Point(277, 482);
-            this.btnLogin.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnLogin.Margin = new System.Windows.Forms.Padding(4);
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.Size = new System.Drawing.Size(140, 50);
             this.btnLogin.TabIndex = 8;
@@ -159,7 +159,7 @@
             // 
             this.btnCancel.Font = new System.Drawing.Font("Arial", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.btnCancel.Location = new System.Drawing.Point(714, 482);
-            this.btnCancel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnCancel.Margin = new System.Windows.Forms.Padding(4);
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(140, 50);
             this.btnCancel.TabIndex = 9;
@@ -173,7 +173,7 @@
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Top;
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(1067, 100);
+            this.pictureBox1.Size = new System.Drawing.Size(1111, 100);
             this.pictureBox1.TabIndex = 10;
             this.pictureBox1.TabStop = false;
             // 
@@ -181,9 +181,9 @@
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.DimGray;
             this.pictureBox2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.pictureBox2.Location = new System.Drawing.Point(0, 577);
+            this.pictureBox2.Location = new System.Drawing.Point(0, 587);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(1067, 100);
+            this.pictureBox2.Size = new System.Drawing.Size(1111, 100);
             this.pictureBox2.TabIndex = 11;
             this.pictureBox2.TabStop = false;
             // 
@@ -203,7 +203,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1067, 677);
+            this.ClientSize = new System.Drawing.Size(1111, 687);
             this.Controls.Add(this.labelTimer);
             this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.btnLogin);
@@ -217,7 +217,7 @@
             this.Controls.Add(this.btnBack);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.pictureBox2);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Authorization";
             this.Text = "Authorization";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
